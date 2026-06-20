@@ -10,6 +10,7 @@ return {
         priority = 1000,
         config = function ()
             require("tokyonight").setup{
+                transparent = false,
                 styles = {
                     comments = { italic = false },
                     keywords = { italic = false },
@@ -21,12 +22,12 @@ return {
         "rose-pine/neovim",
         name = "rose-pine",
         config = function()
-            require("rose-pine").setup({
+            require("rose-pine").setup{
                 disable_background = true,
                 styles = {
                     italic = false,
                 },
-            })
+            }
         end
     }
 }
