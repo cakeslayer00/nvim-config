@@ -19,7 +19,14 @@ return {
                     }
                 }
             }
+            vim.lsp.config('ty', {
+                settings = {
+                    ty = {
+                    }
+                }
+            })
             vim.lsp.enable("lua_ls")
+            vim.lsp.enable("ty")
         end
     }
 }

@@ -1,6 +1,6 @@
 return {
-    { 
-        "savq/melange-nvim", 
+    {
+        "savq/melange-nvim",
         lazy = false,
         priority = 1000 ,
     },
@@ -16,7 +16,7 @@ return {
                     keywords = { italic = false },
                 }
             }
-        end 
+        end
     },
     {
         "rose-pine/neovim",
